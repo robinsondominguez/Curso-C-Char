@@ -1,0 +1,11 @@
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\bin\Debug\OrusCurso.exe.config
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\bin\Debug\OrusCurso.exe
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\bin\Debug\OrusCurso.pdb
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.Presentacion.MenuPrincipal.resources
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.Properties.Resources.resources
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.csproj.GenerateResource.cache
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.exe
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.pdb
+C:\Users\USUARIO\source\repos\OrusCurso\OrusCurso\obj\Debug\OrusCurso.Presentacion.PruebaControls.resources

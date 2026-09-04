@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\OrusCurso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA78A875-BA00-4854-9732-295CCF3C22F5}|OrusCurso\\OrusCurso.csproj|c:\\users\\usuario\\source\\repos\\oruscurso\\oruscurso\\presentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EA78A875-BA00-4854-9732-295CCF3C22F5}|OrusCurso\\OrusCurso.csproj|solutionrelative:oruscurso\\presentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA78A875-BA00-4854-9732-295CCF3C22F5}|OrusCurso\\OrusCurso.csproj|c:\\users\\usuario\\source\\repos\\oruscurso\\oruscurso\\presentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA78A875-BA00-4854-9732-295CCF3C22F5}|OrusCurso\\OrusCurso.csproj|solutionrelative:oruscurso\\presentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Personal.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\OrusCurso\\OrusCurso\\Presentacion\\Personal.cs",
+              "RelativeDocumentMoniker": "OrusCurso\\Presentacion\\Personal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\OrusCurso\\OrusCurso\\Presentacion\\Personal.cs",
+              "RelativeToolTip": "OrusCurso\\Presentacion\\Personal.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAMwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T16:31:21.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Personal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\OrusCurso\\OrusCurso\\Presentacion\\Personal.cs",
+              "RelativeDocumentMoniker": "OrusCurso\\Presentacion\\Personal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\OrusCurso\\OrusCurso\\Presentacion\\Personal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "OrusCurso\\Presentacion\\Personal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T16:17:28.302Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
