@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using CursoC_.Ejercicios;
 using CursoC_.Condicionales;
 using CursoC_.Listas;
+using CursoC_.Presentacion.CRUD;
 
 namespace CursoC_
 {
@@ -19,7 +20,7 @@ namespace CursoC_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuPrincipal());
+            Application.Run(new FrmCRUD());
         }
     }
 }

@@ -46,96 +46,108 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Condicionales\FrmCondicionales.cs">
+    <Compile Include="Datos\Conexion.cs" />
+    <Compile Include="Datos\Dclientes.cs" />
+    <Compile Include="Logica\Lclientes.cs" />
+    <Compile Include="Presentacion\Condicionales\FrmCondicionales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Condicionales\FrmCondicionales.Designer.cs">
+    <Compile Include="Presentacion\Condicionales\FrmCondicionales.Designer.cs">
       <DependentUpon>FrmCondicionales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio1.cs">
+    <Compile Include="Presentacion\CRUD\FrmCRUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CRUD\FrmCRUD.Designer.cs">
+      <DependentUpon>FrmCRUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ejercicios\Ejercicio1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio1.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio1.Designer.cs">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio2.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio2.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio2.Designer.cs">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio3.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio3.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio3.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio3.Designer.cs">
       <DependentUpon>Ejercicio3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio4.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio4.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio4.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio4.Designer.cs">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio5.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio5.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio5.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio5.Designer.cs">
       <DependentUpon>Ejercicio5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio6.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio6.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Ejercicios\Ejercicio6.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\Ejercicio6.Designer.cs">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios\MenuPrincipal.cs">
+    <Compile Include="Presentacion\Ejercicios\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejercicios\MenuPrincipal.Designer.cs">
+    <Compile Include="Presentacion\Ejercicios\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Presentacion\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Presentacion\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Listas_Arrays\FrmListas_Arrays.cs">
+    <Compile Include="Presentacion\Listas_Arrays\FrmListas_Arrays.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Listas_Arrays\FrmListas_Arrays.Designer.cs">
+    <Compile Include="Presentacion\Listas_Arrays\FrmListas_Arrays.Designer.cs">
       <DependentUpon>FrmListas_Arrays.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Condicionales\FrmCondicionales.resx">
+    <EmbeddedResource Include="Presentacion\Condicionales\FrmCondicionales.resx">
       <DependentUpon>FrmCondicionales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio1.resx">
+    <EmbeddedResource Include="Presentacion\CRUD\FrmCRUD.resx">
+      <DependentUpon>FrmCRUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio2.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio2.resx">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio3.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio3.resx">
       <DependentUpon>Ejercicio3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio4.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio4.resx">
       <DependentUpon>Ejercicio4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio5.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio5.resx">
       <DependentUpon>Ejercicio5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\Ejercicio6.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\Ejercicio6.resx">
       <DependentUpon>Ejercicio6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios\MenuPrincipal.resx">
+    <EmbeddedResource Include="Presentacion\Ejercicios\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Presentacion\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Listas_Arrays\FrmListas_Arrays.resx">
+    <EmbeddedResource Include="Presentacion\Listas_Arrays\FrmListas_Arrays.resx">
       <DependentUpon>FrmListas_Arrays.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -191,5 +203,6 @@
   <ItemGroup>
     <None Include="Resources\botonNegro.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
