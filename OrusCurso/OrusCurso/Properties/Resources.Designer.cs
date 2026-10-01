@@ -103,6 +103,16 @@ namespace OrusCurso.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lapiz {
+            get {
+                object obj = ResourceManager.GetObject("lapiz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap magnifying_glass {
             get {
                 object obj = ResourceManager.GetObject("magnifying-glass", resourceCulture);
@@ -136,6 +146,16 @@ namespace OrusCurso.Properties {
         internal static System.Drawing.Bitmap rocket {
             get {
                 object obj = ResourceManager.GetObject("rocket", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_bin {
+            get {
+                object obj = ResourceManager.GetObject("trash-bin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

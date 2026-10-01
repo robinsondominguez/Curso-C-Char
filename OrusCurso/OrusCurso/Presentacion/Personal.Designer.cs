@@ -28,605 +28,1048 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.btnMostrarTodos = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtBuscador = new System.Windows.Forms.TextBox();
+            this.dataListadoPersonal = new System.Windows.Forms.DataGridView();
+            this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Editar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.panelPaginado = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblTotalPaginas = new System.Windows.Forms.Label();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblPagina = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnPrimera = new System.Windows.Forms.Button();
+            this.btnUltima = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
+            this.btnSig = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.panelRegistros = new System.Windows.Forms.Panel();
+            this.dataListadoCargos = new System.Windows.Forms.DataGridView();
+            this.EditarC = new System.Windows.Forms.DataGridViewImageColumn();
+            this.panelCargos = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnGuardarC = new System.Windows.Forms.Button();
+            this.btnGuardarCambiosC = new System.Windows.Forms.Button();
+            this.btnVolverPersonal = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.txtSueldoG = new System.Windows.Forms.TextBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.txtCargoG = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btnVolverCargos = new System.Windows.Forms.Button();
+            this.panelBtnGuardarPersonal = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnGuardarPersonal = new System.Windows.Forms.Button();
+            this.btnGuardarCambiosPersonal = new System.Windows.Forms.Button();
+            this.btnAgregarCargo = new System.Windows.Forms.Button();
+            this.cbxPais = new System.Windows.Forms.ComboBox();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.txtSueldoHora = new System.Windows.Forms.TextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.txtCargos = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtIdentificacion = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.txtNombres = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblSueldo = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataListadoPersonal)).BeginInit();
+            this.panelPaginado.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panelRegistros.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataListadoCargos)).BeginInit();
+            this.panelCargos.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panelBtnGuardarPersonal.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.btnMostrarTodos);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtBuscador);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1347, 100);
+            this.panel1.Size = new System.Drawing.Size(1395, 97);
             this.panel1.TabIndex = 0;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToResizeRows = false;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 100);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dataGridView1.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1347, 441);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.Controls.Add(this.button9);
-            this.panel2.Controls.Add(this.button10);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.button7);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 541);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1347, 81);
-            this.panel2.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(21, 36);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(328, 33);
-            this.textBox1.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.ForeColor = System.Drawing.Color.Black;
-            this.panel3.Location = new System.Drawing.Point(21, 70);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(328, 2);
-            this.panel3.TabIndex = 1;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel4.Controls.Add(this.panel10);
-            this.panel4.Controls.Add(this.flowLayoutPanel2);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Controls.Add(this.btnAgregar);
+            this.panel4.Controls.Add(this.panel14);
             this.panel4.Controls.Add(this.panel9);
-            this.panel4.Controls.Add(this.textBox6);
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.textBox5);
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Controls.Add(this.panel6);
-            this.panel4.Controls.Add(this.textBox3);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel4.Location = new System.Drawing.Point(63, 121);
+            this.panel4.Controls.Add(this.panel12);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1292, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1253, 414);
-            this.panel4.TabIndex = 3;
+            this.panel4.Size = new System.Drawing.Size(103, 97);
+            this.panel4.TabIndex = 16;
             // 
-            // label1
+            // btnAgregar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombres e Apellidos";
+            this.btnAgregar.BackgroundImage = global::OrusCurso.Properties.Resources.plus;
+            this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnAgregar.FlatAppearance.BorderSize = 0;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregar.Location = new System.Drawing.Point(-1, 10);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(94, 77);
+            this.btnAgregar.TabIndex = 3;
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // label2
+            // panel14
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Identificacion";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(192, 149);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 23);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Pais";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(181, 207);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 23);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Cargo";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(170, 259);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 23);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Sueldo";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.Window;
-            this.panel5.ForeColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(252, 54);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(328, 2);
-            this.panel5.TabIndex = 6;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(252, 33);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(328, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.Window;
-            this.panel6.ForeColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(252, 118);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(190, 2);
-            this.panel6.TabIndex = 8;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(252, 94);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(190, 23);
-            this.textBox3.TabIndex = 7;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.Window;
-            this.panel7.ForeColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(252, 175);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(190, 2);
-            this.panel7.TabIndex = 10;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.SystemColors.Window;
-            this.panel8.ForeColor = System.Drawing.Color.Black;
-            this.panel8.Location = new System.Drawing.Point(252, 231);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(328, 2);
-            this.panel8.TabIndex = 12;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(252, 207);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(328, 23);
-            this.textBox5.TabIndex = 11;
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel14.Location = new System.Drawing.Point(0, 87);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(93, 10);
+            this.panel14.TabIndex = 17;
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.SystemColors.Window;
-            this.panel9.ForeColor = System.Drawing.Color.Black;
-            this.panel9.Location = new System.Drawing.Point(252, 283);
+            this.panel9.Controls.Add(this.panel13);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(230, 2);
-            this.panel9.TabIndex = 14;
+            this.panel9.Size = new System.Drawing.Size(93, 10);
+            this.panel9.TabIndex = 0;
             // 
-            // textBox6
+            // panel13
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(252, 259);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(230, 23);
-            this.textBox6.TabIndex = 13;
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel13.Location = new System.Drawing.Point(0, 0);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(93, 10);
+            this.panel13.TabIndex = 1;
             // 
-            // comboBox1
+            // panel12
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(252, 141);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(190, 31);
-            this.comboBox1.TabIndex = 15;
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel12.Location = new System.Drawing.Point(93, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(10, 97);
+            this.panel12.TabIndex = 18;
             // 
-            // button2
+            // btnMostrarTodos
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(586, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 36);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Agregar Cargo";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.button3);
-            this.flowLayoutPanel2.Controls.Add(this.button4);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(174, 300);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(406, 73);
-            this.flowLayoutPanel2.TabIndex = 18;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(97, 66);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "Guardar";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(106, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 66);
-            this.button4.TabIndex = 20;
-            this.button4.Text = "Guardar*";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button5.BackgroundImage = global::OrusCurso.Properties.Resources.back_arrow;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(705, 17);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(46, 36);
-            this.button5.TabIndex = 21;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button1.BackgroundImage = global::OrusCurso.Properties.Resources.plus;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(1230, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 61);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnMostrarTodos.FlatAppearance.BorderSize = 0;
+            this.btnMostrarTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrarTodos.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarTodos.Location = new System.Drawing.Point(373, 43);
+            this.btnMostrarTodos.Name = "btnMostrarTodos";
+            this.btnMostrarTodos.Size = new System.Drawing.Size(114, 32);
+            this.btnMostrarTodos.TabIndex = 15;
+            this.btnMostrarTodos.Text = "Mostrar";
+            this.btnMostrarTodos.UseVisualStyleBackColor = true;
+            this.btnMostrarTodos.Click += new System.EventHandler(this.btnMostrarTodos_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OrusCurso.Properties.Resources.magnifying_glass;
-            this.pictureBox1.Location = new System.Drawing.Point(355, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(315, 36);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(41, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button6
+            // panel3
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(406, 36);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(165, 36);
-            this.button6.TabIndex = 22;
-            this.button6.Text = "Mostrar Todos";
-            this.button6.UseVisualStyleBackColor = false;
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Location = new System.Drawing.Point(18, 73);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(291, 2);
+            this.panel3.TabIndex = 1;
+            // 
+            // txtBuscador
+            // 
+            this.txtBuscador.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtBuscador.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBuscador.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscador.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtBuscador.Location = new System.Drawing.Point(18, 36);
+            this.txtBuscador.Name = "txtBuscador";
+            this.txtBuscador.Size = new System.Drawing.Size(291, 24);
+            this.txtBuscador.TabIndex = 0;
+            this.txtBuscador.TextChanged += new System.EventHandler(this.txtBuscador_TextChanged);
+            // 
+            // dataListadoPersonal
+            // 
+            this.dataListadoPersonal.AllowUserToAddRows = false;
+            this.dataListadoPersonal.AllowUserToDeleteRows = false;
+            this.dataListadoPersonal.AllowUserToResizeRows = false;
+            this.dataListadoPersonal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataListadoPersonal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Eliminar,
+            this.Editar});
+            this.dataListadoPersonal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataListadoPersonal.Location = new System.Drawing.Point(0, 97);
+            this.dataListadoPersonal.Name = "dataListadoPersonal";
+            this.dataListadoPersonal.ReadOnly = true;
+            this.dataListadoPersonal.RowHeadersWidth = 51;
+            this.dataListadoPersonal.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataListadoPersonal.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataListadoPersonal.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
+            this.dataListadoPersonal.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dataListadoPersonal.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.dataListadoPersonal.RowTemplate.Height = 40;
+            this.dataListadoPersonal.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataListadoPersonal.Size = new System.Drawing.Size(1395, 430);
+            this.dataListadoPersonal.TabIndex = 1;
+            this.dataListadoPersonal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataListadoPersonal_CellClick);
+            // 
+            // Eliminar
+            // 
+            this.Eliminar.HeaderText = "";
+            this.Eliminar.Image = global::OrusCurso.Properties.Resources.trash_bin;
+            this.Eliminar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Eliminar.MinimumWidth = 6;
+            this.Eliminar.Name = "Eliminar";
+            this.Eliminar.ReadOnly = true;
+            this.Eliminar.Width = 125;
+            // 
+            // Editar
+            // 
+            this.Editar.HeaderText = "";
+            this.Editar.Image = global::OrusCurso.Properties.Resources.lapiz;
+            this.Editar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Editar.MinimumWidth = 6;
+            this.Editar.Name = "Editar";
+            this.Editar.ReadOnly = true;
+            this.Editar.Width = 125;
+            // 
+            // panelPaginado
+            // 
+            this.panelPaginado.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panelPaginado.Controls.Add(this.panel2);
+            this.panelPaginado.Controls.Add(this.lblTotalPaginas);
+            this.panelPaginado.Controls.Add(this.flowLayoutPanel3);
+            this.panelPaginado.Controls.Add(this.lblPagina);
+            this.panelPaginado.Controls.Add(this.label7);
+            this.panelPaginado.Controls.Add(this.label6);
+            this.panelPaginado.Controls.Add(this.btnPrimera);
+            this.panelPaginado.Controls.Add(this.btnUltima);
+            this.panelPaginado.Controls.Add(this.btnAtras);
+            this.panelPaginado.Controls.Add(this.btnSig);
+            this.panelPaginado.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelPaginado.Font = new System.Drawing.Font("Consolas", 11F, System.Drawing.FontStyle.Bold);
+            this.panelPaginado.Location = new System.Drawing.Point(0, 527);
+            this.panelPaginado.Name = "panelPaginado";
+            this.panelPaginado.Size = new System.Drawing.Size(1395, 71);
+            this.panelPaginado.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.flowLayoutPanel4);
+            this.panel2.Location = new System.Drawing.Point(0, 63);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(8, 8);
+            this.panel2.TabIndex = 16;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 3);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel4.TabIndex = 18;
+            // 
+            // lblTotalPaginas
+            // 
+            this.lblTotalPaginas.AutoSize = true;
+            this.lblTotalPaginas.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPaginas.Location = new System.Drawing.Point(773, 24);
+            this.lblTotalPaginas.Name = "lblTotalPaginas";
+            this.lblTotalPaginas.Size = new System.Drawing.Size(21, 23);
+            this.lblTotalPaginas.TabIndex = 23;
+            this.lblTotalPaginas.Text = "0";
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 61);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(10, 10);
+            this.flowLayoutPanel3.TabIndex = 17;
+            // 
+            // lblPagina
+            // 
+            this.lblPagina.AutoSize = true;
+            this.lblPagina.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPagina.Location = new System.Drawing.Point(660, 24);
+            this.lblPagina.Name = "lblPagina";
+            this.lblPagina.Size = new System.Drawing.Size(21, 23);
+            this.lblPagina.TabIndex = 22;
+            this.lblPagina.Text = "0";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(577, 27);
+            this.label7.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(689, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(25, 27);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "0";
+            this.label7.Size = new System.Drawing.Size(76, 23);
+            this.label7.TabIndex = 21;
+            this.label7.Text = "Pagina";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Consolas", 13.8F);
-            this.label6.Location = new System.Drawing.Point(481, 27);
+            this.label6.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(576, 24);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 27);
-            this.label6.TabIndex = 26;
+            this.label6.Size = new System.Drawing.Size(76, 23);
+            this.label6.TabIndex = 20;
             this.label6.Text = "Pagina";
             // 
-            // button8
+            // btnPrimera
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(248, 12);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(192, 56);
-            this.button8.TabIndex = 24;
-            this.button8.Text = "Pagina Anterior";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnPrimera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnPrimera.FlatAppearance.BorderSize = 0;
+            this.btnPrimera.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnPrimera.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnPrimera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrimera.Location = new System.Drawing.Point(1012, 13);
+            this.btnPrimera.Name = "btnPrimera";
+            this.btnPrimera.Size = new System.Drawing.Size(202, 44);
+            this.btnPrimera.TabIndex = 19;
+            this.btnPrimera.Text = "Primera Pagina";
+            this.btnPrimera.UseVisualStyleBackColor = false;
+            this.btnPrimera.Click += new System.EventHandler(this.btnPrimera_Click);
             // 
-            // button7
+            // btnUltima
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button7.Location = new System.Drawing.Point(63, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(179, 56);
-            this.button7.TabIndex = 23;
-            this.button7.Text = "Pagina Siguiente";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnUltima.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnUltima.FlatAppearance.BorderSize = 0;
+            this.btnUltima.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnUltima.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnUltima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUltima.Location = new System.Drawing.Point(802, 13);
+            this.btnUltima.Name = "btnUltima";
+            this.btnUltima.Size = new System.Drawing.Size(202, 44);
+            this.btnUltima.TabIndex = 18;
+            this.btnUltima.Text = "Ultima Pagina";
+            this.btnUltima.UseVisualStyleBackColor = false;
+            this.btnUltima.Click += new System.EventHandler(this.btnUltima_Click);
+            // 
+            // btnAtras
+            // 
+            this.btnAtras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(366, 13);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(202, 44);
+            this.btnAtras.TabIndex = 17;
+            this.btnAtras.Text = "Anterior Pagina";
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // btnSig
+            // 
+            this.btnSig.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnSig.FlatAppearance.BorderSize = 0;
+            this.btnSig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnSig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnSig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSig.Location = new System.Drawing.Point(156, 13);
+            this.btnSig.Name = "btnSig";
+            this.btnSig.Size = new System.Drawing.Size(202, 44);
+            this.btnSig.TabIndex = 16;
+            this.btnSig.Text = "Siguiente Pagina";
+            this.btnSig.UseVisualStyleBackColor = false;
+            this.btnSig.Click += new System.EventHandler(this.btnSig_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // panelRegistros
+            // 
+            this.panelRegistros.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panelRegistros.Controls.Add(this.dataListadoCargos);
+            this.panelRegistros.Controls.Add(this.panelCargos);
+            this.panelRegistros.Controls.Add(this.btnVolverCargos);
+            this.panelRegistros.Controls.Add(this.panelBtnGuardarPersonal);
+            this.panelRegistros.Controls.Add(this.btnAgregarCargo);
+            this.panelRegistros.Controls.Add(this.cbxPais);
+            this.panelRegistros.Controls.Add(this.panel8);
+            this.panelRegistros.Controls.Add(this.txtSueldoHora);
+            this.panelRegistros.Controls.Add(this.panel7);
+            this.panelRegistros.Controls.Add(this.txtCargos);
+            this.panelRegistros.Controls.Add(this.panel6);
+            this.panelRegistros.Controls.Add(this.txtIdentificacion);
+            this.panelRegistros.Controls.Add(this.panel5);
+            this.panelRegistros.Controls.Add(this.txtNombres);
+            this.panelRegistros.Controls.Add(this.label5);
+            this.panelRegistros.Controls.Add(this.lblSueldo);
+            this.panelRegistros.Controls.Add(this.label3);
+            this.panelRegistros.Controls.Add(this.label2);
+            this.panelRegistros.Controls.Add(this.label1);
+            this.panelRegistros.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panelRegistros.Location = new System.Drawing.Point(28, 123);
+            this.panelRegistros.Name = "panelRegistros";
+            this.panelRegistros.Size = new System.Drawing.Size(1331, 385);
+            this.panelRegistros.TabIndex = 4;
+            this.panelRegistros.Visible = false;
+            // 
+            // dataListadoCargos
+            // 
+            this.dataListadoCargos.AllowUserToAddRows = false;
+            this.dataListadoCargos.AllowUserToDeleteRows = false;
+            this.dataListadoCargos.AllowUserToResizeRows = false;
+            this.dataListadoCargos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataListadoCargos.ColumnHeadersVisible = false;
+            this.dataListadoCargos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.EditarC});
+            this.dataListadoCargos.Location = new System.Drawing.Point(819, 164);
+            this.dataListadoCargos.Name = "dataListadoCargos";
+            this.dataListadoCargos.ReadOnly = true;
+            this.dataListadoCargos.RowHeadersWidth = 51;
+            this.dataListadoCargos.RowTemplate.Height = 24;
+            this.dataListadoCargos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataListadoCargos.Size = new System.Drawing.Size(512, 150);
+            this.dataListadoCargos.TabIndex = 18;
+            this.dataListadoCargos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataListadoCargos_CellClick);
+            // 
+            // EditarC
+            // 
+            this.EditarC.HeaderText = "";
+            this.EditarC.Image = global::OrusCurso.Properties.Resources.lapiz;
+            this.EditarC.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.EditarC.MinimumWidth = 6;
+            this.EditarC.Name = "EditarC";
+            this.EditarC.ReadOnly = true;
+            this.EditarC.Width = 125;
+            // 
+            // panelCargos
+            // 
+            this.panelCargos.Controls.Add(this.flowLayoutPanel2);
+            this.panelCargos.Controls.Add(this.panel10);
+            this.panelCargos.Controls.Add(this.txtSueldoG);
+            this.panelCargos.Controls.Add(this.panel11);
+            this.panelCargos.Controls.Add(this.txtCargoG);
+            this.panelCargos.Controls.Add(this.label8);
+            this.panelCargos.Controls.Add(this.label9);
+            this.panelCargos.Location = new System.Drawing.Point(819, 3);
+            this.panelCargos.Name = "panelCargos";
+            this.panelCargos.Size = new System.Drawing.Size(512, 155);
+            this.panelCargos.TabIndex = 17;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.btnGuardarC);
+            this.flowLayoutPanel2.Controls.Add(this.btnGuardarCambiosC);
+            this.flowLayoutPanel2.Controls.Add(this.btnVolverPersonal);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(10, 95);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(329, 55);
+            this.flowLayoutPanel2.TabIndex = 19;
+            // 
+            // btnGuardarC
+            // 
+            this.btnGuardarC.BackColor = System.Drawing.Color.Lime;
+            this.btnGuardarC.FlatAppearance.BorderSize = 0;
+            this.btnGuardarC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarC.Location = new System.Drawing.Point(3, 3);
+            this.btnGuardarC.Name = "btnGuardarC";
+            this.btnGuardarC.Size = new System.Drawing.Size(132, 44);
+            this.btnGuardarC.TabIndex = 15;
+            this.btnGuardarC.Text = "Guardar";
+            this.btnGuardarC.UseVisualStyleBackColor = false;
+            this.btnGuardarC.Click += new System.EventHandler(this.btnGuardarC_Click);
+            // 
+            // btnGuardarCambiosC
+            // 
+            this.btnGuardarCambiosC.BackColor = System.Drawing.Color.Lime;
+            this.btnGuardarCambiosC.FlatAppearance.BorderSize = 0;
+            this.btnGuardarCambiosC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarCambiosC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarCambiosC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarCambiosC.Location = new System.Drawing.Point(141, 3);
+            this.btnGuardarCambiosC.Name = "btnGuardarCambiosC";
+            this.btnGuardarCambiosC.Size = new System.Drawing.Size(132, 44);
+            this.btnGuardarCambiosC.TabIndex = 16;
+            this.btnGuardarCambiosC.Text = "Guardar*";
+            this.btnGuardarCambiosC.UseVisualStyleBackColor = false;
+            this.btnGuardarCambiosC.Click += new System.EventHandler(this.btnGuardarCambiosC_Click);
+            // 
+            // btnVolverPersonal
+            // 
+            this.btnVolverPersonal.BackgroundImage = global::OrusCurso.Properties.Resources.back_arrow;
+            this.btnVolverPersonal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnVolverPersonal.FlatAppearance.BorderSize = 0;
+            this.btnVolverPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolverPersonal.Location = new System.Drawing.Point(279, 3);
+            this.btnVolverPersonal.Name = "btnVolverPersonal";
+            this.btnVolverPersonal.Size = new System.Drawing.Size(47, 44);
+            this.btnVolverPersonal.TabIndex = 17;
+            this.btnVolverPersonal.UseVisualStyleBackColor = true;
+            this.btnVolverPersonal.Click += new System.EventHandler(this.btnVolverPersonal_Click);
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.White;
+            this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel10.Location = new System.Drawing.Point(181, 86);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(291, 2);
+            this.panel10.TabIndex = 18;
+            // 
+            // txtSueldoG
+            // 
+            this.txtSueldoG.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtSueldoG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSueldoG.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSueldoG.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtSueldoG.Location = new System.Drawing.Point(181, 56);
+            this.txtSueldoG.Name = "txtSueldoG";
+            this.txtSueldoG.Size = new System.Drawing.Size(291, 24);
+            this.txtSueldoG.TabIndex = 17;
+            this.txtSueldoG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSueldoG_KeyPress);
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.White;
+            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel11.Location = new System.Drawing.Point(181, 48);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(291, 2);
+            this.panel11.TabIndex = 16;
+            // 
+            // txtCargoG
+            // 
+            this.txtCargoG.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtCargoG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCargoG.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCargoG.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtCargoG.Location = new System.Drawing.Point(181, 18);
+            this.txtCargoG.Name = "txtCargoG";
+            this.txtCargoG.Size = new System.Drawing.Size(291, 24);
+            this.txtCargoG.TabIndex = 15;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(688, 27);
+            this.label8.Location = new System.Drawing.Point(6, 57);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(25, 27);
-            this.label8.TabIndex = 29;
-            this.label8.Text = "0";
+            this.label8.Size = new System.Drawing.Size(164, 23);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "SueldoPorHora:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Consolas", 13.8F);
-            this.label9.Location = new System.Drawing.Point(644, 27);
+            this.label9.Location = new System.Drawing.Point(94, 18);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 27);
-            this.label9.TabIndex = 28;
-            this.label9.Text = "De";
+            this.label9.Size = new System.Drawing.Size(76, 23);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Cargo:";
             // 
-            // button9
+            // btnVolverCargos
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button9.Location = new System.Drawing.Point(966, 12);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(179, 56);
-            this.button9.TabIndex = 30;
-            this.button9.Text = "Ultima Pagina";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnVolverCargos.BackgroundImage = global::OrusCurso.Properties.Resources.back_arrow;
+            this.btnVolverCargos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnVolverCargos.FlatAppearance.BorderSize = 0;
+            this.btnVolverCargos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolverCargos.Location = new System.Drawing.Point(532, 31);
+            this.btnVolverCargos.Name = "btnVolverCargos";
+            this.btnVolverCargos.Size = new System.Drawing.Size(47, 32);
+            this.btnVolverCargos.TabIndex = 16;
+            this.btnVolverCargos.UseVisualStyleBackColor = true;
+            this.btnVolverCargos.Click += new System.EventHandler(this.btnVolverCargos_Click);
             // 
-            // button10
+            // panelBtnGuardarPersonal
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(768, 12);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(192, 56);
-            this.button10.TabIndex = 31;
-            this.button10.Text = "Primera Pagina";
-            this.button10.UseVisualStyleBackColor = false;
+            this.panelBtnGuardarPersonal.Controls.Add(this.btnGuardarPersonal);
+            this.panelBtnGuardarPersonal.Controls.Add(this.btnGuardarCambiosPersonal);
+            this.panelBtnGuardarPersonal.Location = new System.Drawing.Point(232, 256);
+            this.panelBtnGuardarPersonal.Name = "panelBtnGuardarPersonal";
+            this.panelBtnGuardarPersonal.Size = new System.Drawing.Size(291, 55);
+            this.panelBtnGuardarPersonal.TabIndex = 15;
             // 
-            // panel10
+            // btnGuardarPersonal
             // 
-            this.panel10.Controls.Add(this.button11);
-            this.panel10.Controls.Add(this.panel11);
-            this.panel10.Controls.Add(this.textBox4);
-            this.panel10.Controls.Add(this.panel12);
-            this.panel10.Controls.Add(this.textBox7);
-            this.panel10.Controls.Add(this.label10);
-            this.panel10.Controls.Add(this.label11);
-            this.panel10.Location = new System.Drawing.Point(791, 85);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(413, 197);
-            this.panel10.TabIndex = 22;
+            this.btnGuardarPersonal.BackColor = System.Drawing.Color.Lime;
+            this.btnGuardarPersonal.FlatAppearance.BorderSize = 0;
+            this.btnGuardarPersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarPersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarPersonal.Location = new System.Drawing.Point(3, 3);
+            this.btnGuardarPersonal.Name = "btnGuardarPersonal";
+            this.btnGuardarPersonal.Size = new System.Drawing.Size(132, 44);
+            this.btnGuardarPersonal.TabIndex = 15;
+            this.btnGuardarPersonal.Text = "Guardar";
+            this.btnGuardarPersonal.UseVisualStyleBackColor = false;
+            this.btnGuardarPersonal.Click += new System.EventHandler(this.btnGuardarPersonal_Click);
             // 
-            // panel11
+            // btnGuardarCambiosPersonal
             // 
-            this.panel11.BackColor = System.Drawing.SystemColors.Window;
-            this.panel11.ForeColor = System.Drawing.Color.Black;
-            this.panel11.Location = new System.Drawing.Point(85, 85);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(230, 2);
-            this.panel11.TabIndex = 20;
+            this.btnGuardarCambiosPersonal.BackColor = System.Drawing.Color.Lime;
+            this.btnGuardarCambiosPersonal.FlatAppearance.BorderSize = 0;
+            this.btnGuardarCambiosPersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarCambiosPersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.YellowGreen;
+            this.btnGuardarCambiosPersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarCambiosPersonal.Location = new System.Drawing.Point(141, 3);
+            this.btnGuardarCambiosPersonal.Name = "btnGuardarCambiosPersonal";
+            this.btnGuardarCambiosPersonal.Size = new System.Drawing.Size(132, 44);
+            this.btnGuardarCambiosPersonal.TabIndex = 16;
+            this.btnGuardarCambiosPersonal.Text = "Guardar*";
+            this.btnGuardarCambiosPersonal.UseVisualStyleBackColor = false;
+            this.btnGuardarCambiosPersonal.Click += new System.EventHandler(this.btnGuardarCambiosPersonal_Click);
             // 
-            // textBox4
+            // btnAgregarCargo
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(85, 61);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(230, 23);
-            this.textBox4.TabIndex = 19;
+            this.btnAgregarCargo.FlatAppearance.BorderSize = 0;
+            this.btnAgregarCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarCargo.Location = new System.Drawing.Point(532, 162);
+            this.btnAgregarCargo.Name = "btnAgregarCargo";
+            this.btnAgregarCargo.Size = new System.Drawing.Size(190, 32);
+            this.btnAgregarCargo.TabIndex = 14;
+            this.btnAgregarCargo.Text = "+ Agregar Cargo";
+            this.btnAgregarCargo.UseVisualStyleBackColor = true;
+            this.btnAgregarCargo.Click += new System.EventHandler(this.btnAgregarCargo_Click);
             // 
-            // panel12
+            // cbxPais
             // 
-            this.panel12.BackColor = System.Drawing.SystemColors.Window;
-            this.panel12.ForeColor = System.Drawing.Color.Black;
-            this.panel12.Location = new System.Drawing.Point(85, 45);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(230, 2);
-            this.panel12.TabIndex = 18;
+            this.cbxPais.FormattingEnabled = true;
+            this.cbxPais.Items.AddRange(new object[] {
+            "Afganistán",
+            "Albania",
+            "Alemania",
+            "Andorra",
+            "Angola",
+            "Antigua y Barbuda",
+            "Arabia Saudita",
+            "Argelia",
+            "Argentina",
+            "Armenia",
+            "Aruba",
+            "Australia",
+            "Austria",
+            "Azerbaiyán",
+            "Bahamas",
+            "Bahrein",
+            "Bangladesh",
+            "Barbados",
+            "Belarús",
+            "Bélgica",
+            "Belice",
+            "Benin",
+            "Bermudas",
+            "Bhután",
+            "Bolivia",
+            "Bosnia y Herzegovina",
+            "Botswana",
+            "Brasil",
+            "Brunei Darussalam",
+            "Bulgaria",
+            "Burkina Faso",
+            "Burundi",
+            "Cabo Verde",
+            "Camboya",
+            "Camerún",
+            "Canadá",
+            "Chad",
+            "Chile",
+            "China",
+            "Chipre",
+            "Colombia",
+            "Comoras",
+            "Congo, República Democrática del",
+            "Congo, República del",
+            "Corea, República Popular Democrática de",
+            "Corea, República de",
+            "Costa Rica",
+            "Côte d\'Ivoire",
+            "Croacia",
+            "Cuba",
+            "Curacao",
+            "Dinamarca",
+            "Djibouti",
+            "Dominica",
+            "Ecuador",
+            "Egipto, República Árabe de",
+            "El Salvador",
+            "Emiratos Árabes Unidos",
+            "Eritrea",
+            "Eslovenia",
+            "España",
+            "Estados Unidos",
+            "Estonia",
+            "Eswatini",
+            "Etiopía",
+            "Federación de Rusia",
+            "Fiji",
+            "Filipinas",
+            "Finlandia",
+            "Francia",
+            "Gabón",
+            "Gambia",
+            "Georgia",
+            "Ghana",
+            "Gibraltar",
+            "Granada",
+            "Grecia",
+            "Groenlandia",
+            "Guam",
+            "Guatemala",
+            "Guinea",
+            "Guinea Ecuatorial",
+            "Guinea-Bissau",
+            "Guyana\t",
+            "Haití",
+            "Honduras",
+            "Hong Kong, Región Administrativa Especial",
+            "Hungría",
+            "India",
+            "Indonesia",
+            "Irán, República Islámica del",
+            "Iraq",
+            "Irlanda",
+            "Isla de Man",
+            "Isla de San Martín (parte francesa)",
+            "Islandia",
+            "Islas Caimán",
+            "Islas Feroe",
+            "Islas Marshall",
+            "Islas Salomón",
+            "Islas Turcas y Caicos",
+            "Islas Vírgenes (EE.UU.)",
+            "Islas Vírgenes Británicas",
+            "Islas del Canal",
+            "Israel",
+            "Italia",
+            "Jamaica",
+            "Japón",
+            "Jordania",
+            "Kazajstán",
+            "Kenya",
+            "Kirguistán",
+            "Kiribati",
+            "Kosovo",
+            "Kuwait",
+            "Lesotho",
+            "Letonia",
+            "Líbano",
+            "Liberia",
+            "Libia",
+            "Liechtenstein",
+            "Lituania",
+            "Luxemburgo",
+            "Macedonia del Norte",
+            "Madagascar",
+            "Malasia",
+            "Malawi",
+            "Maldivas",
+            "Malí",
+            "Malta",
+            "Mariana",
+            "Marruecos",
+            "Mauricio",
+            "Mauritania",
+            "México",
+            "Micronesia (Estados Federados de)",
+            "Mónaco",
+            "Mongolia",
+            "Montenegro",
+            "Mozambique",
+            "Myanmar",
+            "Namibia",
+            "Naoero",
+            "Nepal",
+            "Nicaragua",
+            "Níger",
+            "Nigeria",
+            "Noruega",
+            "Nueva Caledonia",
+            "Nueva Zelandia",
+            "Omán",
+            "Países Bajos",
+            "Pakistán",
+            "Palau",
+            "Panamá",
+            "Papua Nueva Guinea",
+            "Paraguay",
+            "Perú",
+            "Polinesia Francesa",
+            "Polonia",
+            "Portugal",
+            "Puerto Rico (US)",
+            "Qatar",
+            "Región Administrativa Especial de Macao, China",
+            "Reino Unido",
+            "República Árabe Siria",
+            "República Centroafricana",
+            "República Checa",
+            "República Democrática Popular Lao",
+            "República Dominicana",
+            "República Eslovaca",
+            "República Federal de Somalia",
+            "República de Moldova",
+            "Ribera Occidental y Gaza",
+            "Rumania",
+            "Rwanda",
+            "Saint Kitts y Nevis",
+            "Samoa",
+            "Samoa Americana",
+            "San Marino",
+            "San Vicente y las Granadinas",
+            "Santa Lucía",
+            "Santo Tomé y Príncipe",
+            "Senegal",
+            "Serbia",
+            "Seychelles",
+            "Sierra Leona",
+            "Singapur",
+            "Sint Maarten (Dutch part)",
+            "Sri Lanka",
+            "Sudáfrica",
+            "Sudán",
+            "Sudán del Sur",
+            "Suecia",
+            "Suiza",
+            "Suriname",
+            "Tailandia",
+            "Tanzanía",
+            "Tayikistán",
+            "Timor-Leste",
+            "Togo",
+            "Tonga",
+            "Trinidad y Tobago",
+            "Túnez",
+            "Turkmenistán",
+            "Turquía",
+            "Tuvalu",
+            "Ucrania",
+            "Uganda",
+            "Uruguay",
+            "Uzbekistán\t",
+            "Vanuatu",
+            "Venezuela",
+            "Viet Nam",
+            "Yemen, Rep. del",
+            "Zambia",
+            "Zimbabwe"});
+            this.cbxPais.Location = new System.Drawing.Point(235, 119);
+            this.cbxPais.Name = "cbxPais";
+            this.cbxPais.Size = new System.Drawing.Size(208, 31);
+            this.cbxPais.TabIndex = 13;
             // 
-            // textBox7
+            // panel8
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(85, 21);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(230, 23);
-            this.textBox7.TabIndex = 17;
+            this.panel8.BackColor = System.Drawing.Color.White;
+            this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel8.Location = new System.Drawing.Point(235, 233);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(291, 2);
+            this.panel8.TabIndex = 12;
             // 
-            // label10
+            // txtSueldoHora
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 61);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 23);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Sueldo";
+            this.txtSueldoHora.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtSueldoHora.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSueldoHora.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSueldoHora.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtSueldoHora.Location = new System.Drawing.Point(235, 203);
+            this.txtSueldoHora.Name = "txtSueldoHora";
+            this.txtSueldoHora.Size = new System.Drawing.Size(291, 24);
+            this.txtSueldoHora.TabIndex = 11;
+            this.txtSueldoHora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSueldoHora_KeyPress);
             // 
-            // label11
+            // panel7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 23);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "Cargo";
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.Location = new System.Drawing.Point(235, 188);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(291, 2);
+            this.panel7.TabIndex = 10;
             // 
-            // button11
+            // txtCargos
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(291, 122);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(108, 66);
-            this.button11.TabIndex = 21;
-            this.button11.Text = "Guardar";
-            this.button11.UseVisualStyleBackColor = false;
+            this.txtCargos.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtCargos.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCargos.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCargos.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtCargos.Location = new System.Drawing.Point(235, 158);
+            this.txtCargos.Name = "txtCargos";
+            this.txtCargos.Size = new System.Drawing.Size(291, 24);
+            this.txtCargos.TabIndex = 9;
+            this.txtCargos.TextChanged += new System.EventHandler(this.txtCargos_TextChanged);
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel6.Location = new System.Drawing.Point(235, 98);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(291, 2);
+            this.panel6.TabIndex = 8;
+            // 
+            // txtIdentificacion
+            // 
+            this.txtIdentificacion.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtIdentificacion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtIdentificacion.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdentificacion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtIdentificacion.Location = new System.Drawing.Point(235, 68);
+            this.txtIdentificacion.Name = "txtIdentificacion";
+            this.txtIdentificacion.Size = new System.Drawing.Size(291, 24);
+            this.txtIdentificacion.TabIndex = 7;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel5.Location = new System.Drawing.Point(235, 61);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(291, 2);
+            this.panel5.TabIndex = 6;
+            // 
+            // txtNombres
+            // 
+            this.txtNombres.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.txtNombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombres.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombres.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtNombres.Location = new System.Drawing.Point(235, 31);
+            this.txtNombres.Name = "txtNombres";
+            this.txtNombres.Size = new System.Drawing.Size(291, 24);
+            this.txtNombres.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(157, 122);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 23);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Pais:";
+            // 
+            // lblSueldo
+            // 
+            this.lblSueldo.AutoSize = true;
+            this.lblSueldo.Location = new System.Drawing.Point(58, 212);
+            this.lblSueldo.Name = "lblSueldo";
+            this.lblSueldo.Size = new System.Drawing.Size(164, 23);
+            this.lblSueldo.TabIndex = 3;
+            this.lblSueldo.Text = "SueldoPorHora:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(146, 167);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 23);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Cargo:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(47, 77);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(175, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Identificacion:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(208, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nombre e Apellido:";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(241, 348);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.TabIndex = 19;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(1015, 58);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel1.TabIndex = 17;
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(8, 8);
+            this.flowLayoutPanel5.TabIndex = 18;
             // 
             // Personal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelRegistros);
+            this.Controls.Add(this.dataListadoPersonal);
+            this.Controls.Add(this.panelPaginado);
             this.Controls.Add(this.panel1);
             this.Name = "Personal";
-            this.Size = new System.Drawing.Size(1347, 622);
+            this.Size = new System.Drawing.Size(1395, 598);
+            this.Load += new System.EventHandler(this.Personal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataListadoPersonal)).EndInit();
+            this.panelPaginado.ResumeLayout(false);
+            this.panelPaginado.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panelRegistros.ResumeLayout(false);
+            this.panelRegistros.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataListadoCargos)).EndInit();
+            this.panelCargos.ResumeLayout(false);
+            this.panelCargos.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panelBtnGuardarPersonal.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -634,49 +1077,68 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridView dataListadoPersonal;
+        private System.Windows.Forms.Panel panelPaginado;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtBuscador;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panelRegistros;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblSueldo;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtNombres;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnAgregarCargo;
+        private System.Windows.Forms.ComboBox cbxPais;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox txtSueldoHora;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.TextBox txtCargos;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.TextBox txtIdentificacion;
+        private System.Windows.Forms.Button btnMostrarTodos;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnPrimera;
+        private System.Windows.Forms.Button btnUltima;
+        private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.Button btnSig;
+        private System.Windows.Forms.Button btnVolverCargos;
+        private System.Windows.Forms.FlowLayoutPanel panelBtnGuardarPersonal;
+        private System.Windows.Forms.Button btnGuardarPersonal;
+        private System.Windows.Forms.Button btnGuardarCambiosPersonal;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTotalPaginas;
+        private System.Windows.Forms.Label lblPagina;
+        private System.Windows.Forms.Panel panelCargos;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button btnGuardarC;
+        private System.Windows.Forms.Button btnGuardarCambiosC;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.TextBox txtSueldoG;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.TextBox txtCargoG;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.DataGridView dataListadoCargos;
+        private System.Windows.Forms.DataGridViewImageColumn EditarC;
+        private System.Windows.Forms.Button btnVolverPersonal;
+        private System.Windows.Forms.DataGridViewImageColumn Eliminar;
+        private System.Windows.Forms.DataGridViewImageColumn Editar;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
     }
 }

@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\Conexion.cs" />
+    <Compile Include="Datos\Dasistencias.cs" />
+    <Compile Include="Datos\Dcargos.cs" />
+    <Compile Include="Datos\Dpersonal.cs" />
+    <Compile Include="Logica\Bases.cs" />
+    <Compile Include="Logica\Lasistencias.cs" />
+    <Compile Include="Logica\Lcargos.cs" />
+    <Compile Include="Logica\Lpersonal.cs" />
+    <Compile Include="Presentacion\CtlUsuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CtlUsuarios.Designer.cs">
+      <DependentUpon>CtlUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +73,25 @@
     <Compile Include="Presentacion\Personal.Designer.cs">
       <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\tomarAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\tomarAsistencia.Designer.cs">
+      <DependentUpon>tomarAsistencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\CtlUsuarios.resx">
+      <DependentUpon>CtlUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\tomarAsistencia.resx">
+      <DependentUpon>tomarAsistencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,8 +117,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Datos\" />
-    <Folder Include="Logica\" />
+    <None Include="Resources\lapiz.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\clock.png" />
@@ -119,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-bin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

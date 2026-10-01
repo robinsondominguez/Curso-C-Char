@@ -29,18 +29,21 @@ namespace OrusCurso.Presentacion
 
         private void btnConsultas_Click(object sender, EventArgs e)
         {
-            PruebaForm frm = new PruebaForm();
-            frm.ShowDialog();
-
-            
+       
         }
 
         private void btnPersonal_Click(object sender, EventArgs e)
         {
-            PruebaControls Control = new PruebaControls();
-            panel2.Controls.Clear();
-            Control.Dock = DockStyle.Fill;
-            panel2.Controls.Add(Control);
+            panelPadre.Controls.Clear();
+            Personal control = new Personal();
+            control.Dock = DockStyle.Fill;
+            panelPadre.Controls.Add(control);
+
+        }
+
+        private void panelPadre_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
